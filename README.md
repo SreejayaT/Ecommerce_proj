@@ -1,13 +1,13 @@
-ONLINE SHOPPER PURCHASE PREDICTION
+**ONLINE SHOPPER PURCHASE PREDICTION**
 
-Project Overview:
+**Project Overview:**
 This project predicts whether a visitor will make a purchase during an online shopping session using machine learning.
 
 The goal is to identify high-intent customers based on their browsing behavior so that businesses can target them with marketing actions.
 
 ------------------------------------------------------------
 
-Dataset:
+**Dataset:**
 The dataset contains session-level data from an e-commerce website. Each row represents a user session.
 
 Key features include:
@@ -17,14 +17,15 @@ Key features include:
 - Visitor type
 - Month of visit
 
-Target Variable:
+**Target Variable:**
 Revenue
-1 → purchase occurred
+
+1 → purchase occurred,
 0 → no purchase
 
 ------------------------------------------------------------
 
-Workflow:
+**Workflow:**
 
 1. Exploratory Data Analysis (EDA)
 2. Data preprocessing and encoding
@@ -36,7 +37,7 @@ Workflow:
 
 ------------------------------------------------------------
 
-Models Used:
+**Models Used:**
 
 The following machine learning models were tested:
 
@@ -48,7 +49,7 @@ The XGBoost model achieved the best performance with a ROC-AUC of approximately 
 
 ------------------------------------------------------------
 
-Key Insights:
+**Key Insights:**
 
 - User engagement features strongly influence purchases.
 - Higher PageValues and longer ProductRelated_Duration increase purchase likelihood.
@@ -56,19 +57,19 @@ Key Insights:
 
 ------------------------------------------------------------
 
-Customer Segmentation:
+**Customer Segmentation:**
 
 Based on predicted purchase probabilities, users were segmented into three groups:
 
-Low Intent      → low probability of purchase
-Medium Intent   → moderate probability
+Low Intent      → low probability of purchase,
+Medium Intent   → moderate probability,
 High Intent     → high probability of purchase
 
 This segmentation can help businesses prioritize marketing strategies.
 
 ------------------------------------------------------------
 
-Tools and Libraries:
+**Tools and Libraries:**
 
 - Python
 - Pandas
@@ -80,9 +81,8 @@ Tools and Libraries:
 
 ------------------------------------------------------------
 
-Future Work:
 
-Possible improvements include:
+**Possible Improvements:**
 - Deploying the model using FastAPI
 - Monitoring model performance over time
 - Adding additional behavioral features
