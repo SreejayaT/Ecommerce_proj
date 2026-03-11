@@ -1,13 +1,13 @@
 ONLINE SHOPPER PURCHASE PREDICTION
 
-Project Overview
+Project Overview:
 This project predicts whether a visitor will make a purchase during an online shopping session using machine learning.
 
 The goal is to identify high-intent customers based on their browsing behavior so that businesses can target them with marketing actions.
 
 ------------------------------------------------------------
 
-Dataset
+Dataset:
 The dataset contains session-level data from an e-commerce website. Each row represents a user session.
 
 Key features include:
@@ -24,7 +24,7 @@ Revenue
 
 ------------------------------------------------------------
 
-Workflow
+Workflow:
 
 1. Exploratory Data Analysis (EDA)
 2. Data preprocessing and encoding
@@ -36,7 +36,7 @@ Workflow
 
 ------------------------------------------------------------
 
-Models Used
+Models Used:
 
 The following machine learning models were tested:
 
@@ -48,7 +48,7 @@ The XGBoost model achieved the best performance with a ROC-AUC of approximately 
 
 ------------------------------------------------------------
 
-Key Insights
+Key Insights:
 
 - User engagement features strongly influence purchases.
 - Higher PageValues and longer ProductRelated_Duration increase purchase likelihood.
@@ -56,7 +56,7 @@ Key Insights
 
 ------------------------------------------------------------
 
-Customer Segmentation
+Customer Segmentation:
 
 Based on predicted purchase probabilities, users were segmented into three groups:
 
@@ -68,7 +68,7 @@ This segmentation can help businesses prioritize marketing strategies.
 
 ------------------------------------------------------------
 
-Tools and Libraries
+Tools and Libraries:
 
 - Python
 - Pandas
@@ -80,7 +80,7 @@ Tools and Libraries
 
 ------------------------------------------------------------
 
-Future Work
+Future Work:
 
 Possible improvements include:
 - Deploying the model using FastAPI
